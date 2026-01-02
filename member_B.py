@@ -22,15 +22,8 @@ def app():
     # --------------------------------------------------
     # Load dataset
     # --------------------------------------------------
-    try:
-        df = pd.read_excel("cleaned_tiktok_data.xlsx")  # or pd.read_csv("TikTok_DataFrame.csv")
-        st.success("Dataset loaded successfully!")
-        st.dataframe(df.head())
-    except Exception as e:
-        st.error("Failed to load dataset.")
-        st.exception(e)
-        st.stop()
-
+    df = pd.read_excel("cleaned_tiktok_data.xlsx")  # or pd.read_csv("TikTok_DataFrame.csv")
+      
     # --------------------------------------------------
     # Define factor groups
     # --------------------------------------------------
