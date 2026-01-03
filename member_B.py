@@ -10,7 +10,15 @@ st.set_page_config(
     layout="wide"
 )
 
-st.header("Evaluate the Influence of Scarcity and Unexpected Discovery on Shopping Behavior 📊", divider="blue")
+st.header(
+    "Sub-Objective 2: Evaluate the Influence of Scarcity and Unexpected Discovery on Shopping Behavior"
+)
+
+st.subheader("Problem Statement")
+    st.write("""
+    Scarcity cues such as time-limited promotions and limited product availability, as well as unexpected product discovery, are commonly used in digital commerce.
+    However, without proper analysis, it is difficult to determine how strongly these factors influence users’ shopping perceptions and behaviors.
+    """)
 
 # ######################################################################
 # --- 1. DATA LOADING FROM URL (Replaced Dummy Data) ---
@@ -43,6 +51,11 @@ fig.update_layout(
 
 # Display in Streamlit
 st.plotly_chart(fig, use_container_width=True)
+st.write("""
+    **Interpretation:**  
+    The correlation heatmap supports the finding that trust-related factors such as reliability, honesty, and product quality are positively associated with motivation factors such as discounts and gifts.
+    This indicates that higher trust increases shopping motivation on TikTok Shop.
+    """)
 
 #Monthly Income Bar Chart
 # Calculate the average Scarcity and Serendipity scores by monthly_income
@@ -92,6 +105,11 @@ fig.update_layout(
 
 # Display in Streamlit
 st.plotly_chart(fig, use_container_width=True)
+st.write("""
+    **Interpretation:**  
+    The correlation heatmap supports the finding that trust-related factors such as reliability, honesty, and product quality are positively associated with motivation factors such as discounts and gifts.
+    This indicates that higher trust increases shopping motivation on TikTok Shop.
+    """)
 
 #Gender Bar Chart
 # Calculate the average Scarcity and Serendipity scores by gender
@@ -131,6 +149,11 @@ fig.update_layout(
 
 # Display in Streamlit
 st.plotly_chart(fig, use_container_width=True)
+st.write("""
+    **Interpretation:**  
+    The correlation heatmap supports the finding that trust-related factors such as reliability, honesty, and product quality are positively associated with motivation factors such as discounts and gifts.
+    This indicates that higher trust increases shopping motivation on TikTok Shop.
+    """)
 
 #Box Plot
 # Create subplots (1 row, 2 columns)
@@ -225,3 +248,8 @@ fig.update_yaxes(title_text="Density", row=1, col=2)
 
 # Display in Streamlit
 st.plotly_chart(fig, use_container_width=True)
+st.write("""
+    **Interpretation:**  
+    The correlation heatmap supports the finding that trust-related factors such as reliability, honesty, and product quality are positively associated with motivation factors such as discounts and gifts.
+    This indicates that higher trust increases shopping motivation on TikTok Shop.
+    """)
