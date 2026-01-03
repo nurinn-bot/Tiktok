@@ -53,8 +53,8 @@ fig.update_layout(
 st.plotly_chart(fig, use_container_width=True)
 st.write("""
     **Interpretation:**  
-    The correlation heatmap supports the finding that trust-related factors such as reliability, honesty, and product quality are positively associated with motivation factors such as discounts and gifts.
-    This indicates that higher trust increases shopping motivation on TikTok Shop.
+    The correlation heatmap shows a moderate positive relationship, at 0.55, between Scarcity and Serendipity.Scarcity makes students feel there is urgency to go out and find products, which in return makes them discover new or unplanned items.
+    However, the strength of the relationship is not that high, meaning both Scarcity and Serendipity still affect shopping behavior differently.
     """)
 
 #Monthly Income Bar Chart
@@ -107,8 +107,8 @@ fig.update_layout(
 st.plotly_chart(fig, use_container_width=True)
 st.write("""
     **Interpretation:**  
-    The correlation heatmap supports the finding that trust-related factors such as reliability, honesty, and product quality are positively associated with motivation factors such as discounts and gifts.
-    This indicates that higher trust increases shopping motivation on TikTok Shop.
+   Results show that scarcity and Serendipity discovery both influence shopping behaviour on TikTok Shop, with differences across income groups.
+   Students earning less than RM100 are strongly influenced by limited-time offers and low product availability.The highest unexpected discovery score is recorded in the RM100–RM300 group, which suggests that this group is most influenced by the discovery of new or unexpected products
     """)
 
 #Gender Bar Chart
@@ -151,8 +151,8 @@ fig.update_layout(
 st.plotly_chart(fig, use_container_width=True)
 st.write("""
     **Interpretation:**  
-    The correlation heatmap supports the finding that trust-related factors such as reliability, honesty, and product quality are positively associated with motivation factors such as discounts and gifts.
-    This indicates that higher trust increases shopping motivation on TikTok Shop.
+    From the results, it can be noted that both male and female shoppers are driven by scarcity and serendipity in TikTok Shop.
+    Scarcity scores of both male and female shoppers are more or less at par as both male and female shoppers are equally impacted by scarcity marketing. Males are slightly more driven by serendipity as their serendipity score is a bit higher compared to females.
     """)
 
 #Box Plot
@@ -196,6 +196,11 @@ fig.update_layout(
 
 # Display in Streamlit
 st.plotly_chart(fig, use_container_width=True)
+st.write("""
+    **Interpretation:**  
+    The box plots above demonstrate that Scarcity and Serendipity scores tend to be moderately to highly valued among consumers on TikTok Shop.
+    The median scores for Scarcity and Serendipity are close to the upper-middle levels, suggesting that consumers tend to be exposed to feelings of scarcity and serendipity during their shopping experiences on TikTok Shop.
+    """)
 
 #Histogram
 # Create subplots (1 row, 2 columns)
@@ -250,6 +255,6 @@ fig.update_yaxes(title_text="Density", row=1, col=2)
 st.plotly_chart(fig, use_container_width=True)
 st.write("""
     **Interpretation:**  
-    The correlation heatmap supports the finding that trust-related factors such as reliability, honesty, and product quality are positively associated with motivation factors such as discounts and gifts.
-    This indicates that higher trust increases shopping motivation on TikTok Shop.
+    The distribution of data reveals that both scarcity and serendipity have a significant impact on purchasing habits when it comes to shopping on TikTok Shop.
+    The scarcity scores vary across the medium to high range. Additionally, the scores on serendipity lie on the higher side, implying consumers are often driven by discovering products that were unknown to them.
     """)
