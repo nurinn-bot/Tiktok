@@ -11,13 +11,13 @@ st.set_page_config(
 )
 
 st.header(
-    "Sub-Objective 2: Evaluate the Influence of Scarcity and Unexpected Discovery on Shopping Behavior"
+    "Sub-Objective 2: Evaluate the Influence of Scarcity and Serendipity on Shopping Behavior"
 )
 
 st.subheader("Problem Statement")
 st.write("""
     Scarcity cues such as time-limited promotions and limited product availability, as well as unexpected product discovery, are commonly used in digital commerce.
-    However, without proper analysis, it is difficult to determine how strongly these factors influence users’ shopping perceptions and behaviors.
+    However, without proper analysis, it is difficult to determine how strongly these factors influence student’s shopping perceptions and behaviors.
     """)
 
 # ######################################################################
