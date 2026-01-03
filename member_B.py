@@ -15,7 +15,7 @@ st.header(
 )
 
 st.subheader("Problem Statement")
-    st.write("""
+st.write("""
     Scarcity cues such as time-limited promotions and limited product availability, as well as unexpected product discovery, are commonly used in digital commerce.
     However, without proper analysis, it is difficult to determine how strongly these factors influence users’ shopping perceptions and behaviors.
     """)
